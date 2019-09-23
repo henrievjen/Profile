@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(70, 73, 94);
+}
+
+.head {
+  text-align: center;
+}
+
+.header-name {
+  color: lightgray;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.main {
+  height: 80vh;
+}
+
+.section-header {
+  color: rgb(163, 163, 163);
+  font-weight: 400;
+}
