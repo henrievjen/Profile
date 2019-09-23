@@ -20,3 +20,8 @@ body {
   color: rgb(163, 163, 163);
   font-weight: 400;
 }
+
+.resume-document {
+  width: 95%;
+  height: 92%;
+}
