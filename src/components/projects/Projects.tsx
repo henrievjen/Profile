@@ -10,7 +10,7 @@ import lock from './projects-images/lock.png';
 
 const Projects: React.FC = () => {
   return (
-    <div className="projects col-xl-4 text-center">
+    <div className="projects col-xl-4 text-center mb-5">
         <h2 className="section-header col-12 mb-xl-5">Projects</h2>
         <div className="projects-list row">
             <div className="project col-xl-8 offset-xl-2 rounded hovered">
