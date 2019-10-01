@@ -48,26 +48,3 @@ body {
   transition: all 150ms ease-in;
   transform: scale(1.05);
 }
-
-.resume {
-  width: 80%;
-  height: auto;
-}
-
-.resume:hover {
-  cursor: pointer;
-}
-
-.project {
-  background-color: rgb(255, 255, 255);
-  height: 100px;
-}
-
-.project-icon {
-  height: 100px;
-}
-
-.project-icon-img {
-  width: auto;
-  height: 100%;
-}

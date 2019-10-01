@@ -1,0 +1,8 @@
+.resume {
+    width: 80%;
+    height: auto;
+}
+  
+.resume:hover {
+    cursor: pointer;
+}

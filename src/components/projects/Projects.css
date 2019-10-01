@@ -1,0 +1,14 @@
+.project {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+  }
+  
+  .project-icon {
+    height: 100px;
+  }
+  
+  .project-icon-img {
+    width: auto;
+    height: 100%;
+  }
+  
