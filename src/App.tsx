@@ -1,25 +1,46 @@
 import React from 'react';
+import styled, { createGlobalStyle } from 'styled-components';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 import Resume from './components/resume/Resume';
 import Profile from './components/profile/Profile';
 import Projects from './components/projects/Projects';
 
 const App: React.FC = () => {
+  const GlobalStyle = createGlobalStyle`
+    body {
+      background-color: rgb(70, 73, 94);
+    }
+  `;
+
+  const Main = styled.div`
+    width: 97%;
+  `;
+
+  const HeaderName = styled.h1`
+    color: lightgray;
+    font-size: 52px;
+    font-weight: 600;
+  `;
+
+  const MainSections = styled.div`
+    height: 80vh;
+  `;
+
   return (
     <Router>
-      <div className="App text-center">
-        <div className="centered-main">
-          <header className="head">
-            <h1 className="header-name mt-2 mb-5">Henri Evjen</h1>
+      <GlobalStyle />
+      <div className="text-center">
+        <Main>
+          <header>
+            <HeaderName className="mt-2 mb-5">Henri Evjen</HeaderName>
           </header>
-          <div className="row main">
+          <MainSections className="row">
             <Resume></Resume>
             <Profile></Profile>
             <Projects></Projects>
-          </div>
-        </div>
+          </MainSections>
+        </Main>
       </div>
 
       <Switch>
