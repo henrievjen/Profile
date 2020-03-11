@@ -1,6 +1,8 @@
-This small personal site was created with React, using Bootrap 4 and Styled-Components for styling.
+This small personal site was created with React, using Bootsrap 4 and Styled-Components for styling.
+The project uses TypeScript for clean code consistency.
+The project used Create React App to bootstrap the template.
 
-## Developers
+## Developers:
 
 In the project directory, you can run:
 
