@@ -58,18 +58,16 @@ const Projects: React.FC = () => {
   `;
 
   return (
-    <Projects className="col-xl-4 text-center mb-5">
+    <Projects className="col-xl-4 text-center mt-5 mt-xl-0 mb-5">
         <Section className="section-header col-12 mb-xl-5 mb-lg-3">Projects</Section>
-        <div className="row">
-            <Project className="col-xl-8 offset-xl-2 rounded">
+        <div className="row mt-5 mt-xl-0">
+            <Project className="col-xl-8 col-4 offset-xl-2 offset-1 rounded">
                 <ProjectIcon className="text-left">
                     <ProjectIconImg src={github_icon} className="rounded-circle mr-1" alt="GitHub Icon" />
                     <span><a href="https://github.com/henrievjen/Github-Viewer" target="_blank" rel="noopener noreferrer">GitHub Viewer</a></span>
                 </ProjectIcon>
             </Project>
-        </div>
-        <div className="row mt-4">
-            <Project className="col-xl-8 offset-xl-2 rounded">
+            <Project className="col-xl-8 col-4 offset-xl-2 offset-2 rounded mt-0 mt-xl-4">
                 <ProjectIcon className="text-left">
                     <ProjectIconImg src={multirotor_icon} className="rounded-circle p-2 mr-2" alt="Multirotor Icon" />
                     <span><a href="https://github.com/MissouriMRR/propguard" target="_blank" rel="noopener noreferrer">Propguard</a></span>
@@ -77,15 +75,13 @@ const Projects: React.FC = () => {
             </Project>
         </div>
         <div className="row mt-4">
-            <Project className="col-xl-8 offset-xl-2 rounded">
+            <Project className="col-xl-8 col-4 offset-xl-2 offset-1 rounded">
                 <ProjectIcon className="text-left">
                     <ProjectIconImg src={tic_tac_toe} className="p-2 mr-2" alt="Tic-Tac-Toe" />
                     <span><a href="https://github.com/henrievjen/Tic-Tac-Toe" target="_blank" rel="noopener noreferrer">Tic-Tac-Toe</a></span>
                 </ProjectIcon>
             </Project>
-        </div>
-        <div className="row mt-4">
-            <Project className="col-xl-8 offset-xl-2 rounded">
+            <Project className="col-xl-8 col-4 offset-xl-2 offset-2 rounded mt-0 mt-xl-4">
                 <ProjectIcon className="text-left">
                     <ProjectIconImg src={question_mark} className="p-3 mr-2" alt="Question Mark" />
                     <span><a href="https://github.com/henrievjen/JavaScript-Matching-Game" target="_blank" rel="noopener noreferrer">Matching Game</a></span>
@@ -93,7 +89,7 @@ const Projects: React.FC = () => {
             </Project>
         </div>
         <div className="row mt-4">
-            <Project className="col-xl-8 offset-xl-2 rounded">
+            <Project className="col-xl-8 col-4 offset-xl-2 offset-4 rounded">
                 <ProjectIcon className="text-left">
                     <ProjectIconImg src={lock} className="p-3 mr-2" alt="Lock" />
                     <span><a href="https://github.com/henrievjen/Password-Tool" target="_blank" rel="noopener noreferrer">Password Tool</a></span>

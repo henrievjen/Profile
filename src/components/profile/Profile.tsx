@@ -14,7 +14,7 @@ const Profile: React.FC = () => {
   `;
 
   return (
-    <div className="col-xl-4 text-center border-left border-right border-light mt-5 mt-xl-0 mb-5">
+    <div className="col-xl-4 text-center border-left border-right border-light mt-5 mt-xl-0 mt-xl-0 mb-5">
         <Section>Profile</Section>
         <Content className="mt-5 pl-5 pr-5">
           <ul>

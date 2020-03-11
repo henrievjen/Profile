@@ -37,7 +37,7 @@ const Resume: React.FC = () => {
   `;
 
   return (
-    <div className="col-xl-4 text-center">
+    <div className="col-xl-4 text-center mb-5 mb-xl-0">
         <Section>Resume</Section>
         <Resume src={resume_image} className="rounded mt-5" alt="Resume" />
     </div>
